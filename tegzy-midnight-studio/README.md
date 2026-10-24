@@ -7,7 +7,7 @@ An interactive personal portfolio built with JavaScript, Three.js, HTML and CSS.
 - An architectural 3D room, city window, desk and custom chair.
 - The supplied monitor, keyboard and lamp models, with artist credits.
 - Camera transitions, monitor selection, direct navigation, optional ambient sound and lighting controls.
-- Work, About, Approach, Notes and Contact sections, with detail pages for Ethiopian Bible, Midnight Studio and The Style Archive.
+- Work, About, Services, Elsewhere and Contact sections, with detail pages for Mac Solutions, Black Edition Rentals, Serene Scripture and Midnight Studio.
 - Reduced-motion handling, WebGL fallback content, mobile layouts, frame-rate-aware cursor damping, cached shadows and an adaptive render resolution.
 
 ## Upload to GitHub — step by step
@@ -48,7 +48,7 @@ Open `http://localhost:3000`. To build only, run `npm run build`. Any static web
 - **Scene, cameras, lights, monitor artwork:** `src.js`.
 - **3D props:** `dist/assets/`.
 
-HTML and CSS are intentionally maintained inside `dist/`; the build regenerates only `dist/app.js`. Keep the asset files when uploading. Rebuild after changes to JavaScript. The contact destination currently links to the supplied GitHub profile; add your preferred public contact address when ready. The Notes section contains short portfolio reflections, not links to published essays.
+HTML and CSS are intentionally maintained inside `dist/`; the build regenerates only `dist/app.js`. Keep the asset files when uploading. Rebuild after changes to JavaScript. Contact includes your public email, GitHub, Substack and TikTok. Elsewhere links to your writing and video profiles. See UPDATE-INSTRUCTIONS.md for the design revision and upload instructions.
 
 ## Model credits
 
@@ -60,4 +60,4 @@ The uploaded noncommercial chair is excluded. Room, desk, chair, skyline, screen
 
 ## Verification
 
-JavaScript syntax checks, the production build, internal portfolio-route checks and a clean extracted-package build were performed. Browser visual QA was unavailable in the build environment; review camera composition, model orientation and performance on your target devices before treating this as the final public portfolio. Performance changes reduce rendering work but have not been benchmarked in a browser.
+JavaScript syntax checks, the production build, internal portfolio-route checks and a clean extracted-package build were performed. The HTML portfolio, case-study navigation, contact page, and email-copy action were tested in a browser. WebGL was unavailable in that browser, so review the 3D room and motion on a capable laptop or phone.
